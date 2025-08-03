@@ -41,7 +41,7 @@ def load_and_prepare_data(path):
         List of hourly indices corresponding to rows in df.
     """
     df = pd.read_csv(path, index_col=0, parse_dates=True)
-    df = df.loc["2015-01-01":"2015-06-30", [
+    df = df.loc["2015-01-01":"2015-12-31", [
         "AT_load_actual_entsoe_transparency",
         "AT_wind_onshore_generation_actual"
     ]].copy()
