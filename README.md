@@ -6,9 +6,9 @@ Power system optimization models (PSOMs) are essential for planning sustainable 
 
 TSA approaches fall into two categories:
 
-A-priori methods rely solely on input data, largely ignoring model structure or performance. Examples include down-sampling and fixed representative periods. Down-sampling fails to capture short-term dynamics, while fixed-period representation may not accurately reflect the full model’s sensitivity to variability.
+- **A-priori methods:** Rely solely on input data, largely ignoring model structure or performance. Examples include down-sampling and fixed representative periods. Down-sampling fails to capture short-term dynamics, while fixed-period representation may not accurately reflect the full model’s sensitivity to variability.
 
-A-posteriori methods incorporate both data and PSOM structure. A prominent a-posteriori technique is Basis-Oriented TSA, which provides an exact approximation of the full model by identifying contiguous intervals (basis windows) where the set of binding constraints remains constant.
+- **A-posteriori methods:** Incorporate both data and PSOM structure. A prominent a-posteriori technique is Basis-Oriented TSA, which provides an exact approximation of the full model by identifying contiguous intervals (basis windows) where the set of binding constraints remains constant.
 
 This research focuses on extending the Basis-Oriented approach to complex PSOMs that include additional constraints specifically, thermal generator ramping and network (DC flow) constraints. Ramping constraints introduce complexity due to the variable length of consecutive binding periods, while network constraints add intertemporal coupling across buses.
 ## Research Questions
