@@ -436,9 +436,9 @@ def compare_and_report(full, agg, df, agg_df):
     print(f"Hours reduced: {len(df)} → {len(agg_df)} ({100*(1-len(agg_df)/len(df)):.2f}%)")
 
 
-def construct_table6(df, subsets, group_map):
+def construct_table(df, subsets, group_map):
     """
-    Create and print summary table (Table 6) of subsets by length.
+    Create and print summary table of subsets by length.
 
     Calculates for each length:
     - Number of subsets
@@ -539,7 +539,7 @@ def main():
     solve_model(agg)
 
     compare_and_report(full, agg, df, agg_df)
-    construct_table6(df, subsets, group_map)
+    construct_table(df, subsets, group_map)
     plot_results(df, group_map)
 
 
