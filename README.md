@@ -28,8 +28,8 @@ This research focuses on extending the Basis-Oriented approach to complex PSOMs 
 
 #### 1. Clone the repository
 ```
-git clone https://github.com/your-user/model-aggregation.git
-cd model-aggregation
+git clone https://github.com/ankanasingha/extended-basis-oriented-tsa.git
+cd extended-basis-oriented-tsa
 ```
 
 #### 2. Create Virtual Environment
