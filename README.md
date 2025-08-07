@@ -38,18 +38,18 @@ cd model-aggregation
 python -m venv venv
 ```
 
-#### Activate the virtual environment
+#### 3. Activate the virtual environment
 - On Windows:
 ```
 venv\Scripts\activate
 ```
-#### 3. Install dependencies
+#### 4. Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-#### 4. Run the workflow
+#### 5. Run the workflow
 
 ```
 python aggregation.py
