@@ -32,12 +32,17 @@ git clone https://github.com/your-user/model-aggregation.git
 cd model-aggregation
 ```
 
-#### 2. Create Virtual Environment and activate it
+#### 2. Create Virtual Environment
 
 ```
 python -m venv venv
 ```
 
+#### Activate the virtual environment
+- On Windows:
+```
+venv\Scripts\activate
+```
 #### 3. Install dependencies
 
 ```
